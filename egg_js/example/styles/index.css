@@ -1,0 +1,90 @@
+/* pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgba(2, 255, 116, 0.801);
+    font-size: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #0026ff7e;
+    color: #fff;
+    padding: 40px;
+}
+header h1 {
+    margin: 5%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    display: flex;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Estilos para el contenido principal */
+main {
+    padding: 10px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    background-color: rgba(255, 0, 0, 0.897);
+    font-size: 230%;
+}
+article {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0026ff7e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
